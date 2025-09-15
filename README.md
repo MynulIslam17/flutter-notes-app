@@ -1,16 +1,46 @@
-# note_app
+# 📝 Note App (Flutter + SharedPreferences)
 
-A new Flutter project.
+A simple Flutter **Note App** that lets you **add notes** and **bookmark important ones**.  
+All notes are saved locally on the device using **SharedPreferences**, so they remain available even after closing the app.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- ✍️ Add new notes easily  
+- 📌 Bookmark notes for quick access  
+- 💾 Persistent local storage with **SharedPreferences**  
+- ⚡ Lightweight and offline — no internet required  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Flutter** (UI)  
+- **Dart** (Logic)  
+- **SharedPreferences** (Local Storage)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📷 Screenshots  
+
+### 🖼️ App Preview  
+![screen Screenshot](https://raw.githubusercontent.com/MynulIslam17/flutter-notes-app/refs/heads/main/Untitled%20design(5).png)  
+
+> 📌 Place your images in an `assets/` folder inside your repo and update the path.  
+> Or, if you upload screenshots to GitHub issues or PRs, copy the **direct link** and use it here.
+
+---
+
+## 📂 Project Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/note_app.git
+
+# Navigate to project folder
+cd note_app
+
+# Get dependencies
+flutter pub get
+
+# Run the app
+flutter run
